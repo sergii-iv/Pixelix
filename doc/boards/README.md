@@ -17,6 +17,7 @@ To find out which part shall be connected to which pin of your development board
   - [DOIT ESP32 DEVKIT V1](#doit-esp32-devkit-v1)
   - [DOIT ESP32 DEVKIT V1 - HUB75 panel](#doit-esp32-devkit-v1---hub75-panel)
   - [ESP32-S3 DEVKITC-1-N16R8V](#esp32-s3-devkitc-1-n16r8v)
+  - [ESP32-S3 Super Mini](#esp32-s3-super-mini)
   - [ESP32 NodeMCU](#esp32-nodemcu)
   - [LILYGO® TTGO ESP32 T-Display](#lilygo-ttgo-esp32-t-display)
   - [LILYGO® ESP32 T-Display S3](#lilygo-esp32-t-display-s3)
@@ -80,6 +81,24 @@ To find out which part shall be connected to which pin of your development board
   * LED matrix 32x16
     * Board: [board:esp32-s3-devkitc-1-n16r8v-LED-32x16](../../config/board.ini)
     * Display: [display:led_matrix_32x16_column_major_alternating](../../config/display.ini)
+* Not compatible with Pixelix boards.
+
+### ESP32-S3 Super Mini
+
+* Reference: [ESP32-S3 Super Mini](https://www.espboards.dev/esp32/esp32-s3-super-mini/)
+* Specifications:
+  * Dual-core Xtensa LX7 CPU @ 240 MHz
+  * 4 MB Flash, 512 KB SRAM
+  * WiFi 802.11 b/g/n (2.4 GHz) and Bluetooth 5.0/BLE
+  * Ultra-compact size: 22.52 x 18 mm
+  * Native USB-C (Serial/JTAG)
+  * Onboard WS2812 RGB LED on GPIO48
+* Pinning:
+  * Board: [board:esp32-s3-super-mini-LED-32x8](../../config/board.ini)
+  * Display: [display:led_matrix_column_major_alternating](../../config/display.ini)
+* Documentation:
+  * [Hardware description and specifications](./esp32-s3-super-mini.md)
+  * [Detailed pin mapping and wiring guide](./esp32-s3-super-mini-pinout.md)
 * Not compatible with Pixelix boards.
 
 ### ESP32 NodeMCU
